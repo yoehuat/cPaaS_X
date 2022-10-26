@@ -1,10 +1,10 @@
-在PaaS上部署Xray,带伪装页面
+在cPaaS上部署X,带伪装页面
 
 [镜像](https://hub.docker.com/r/wgp233/paas)：`wgp233/paas:x`
 
 # 配置
 
-vless + vmess + trojan + shadowsocks2022
+vlss + vmss + trjan + shdscks2022
 
 - 地址：**x.x.x.x**（由服务平台提供）
 - 端口：**443**（通常自带TLS）
@@ -14,10 +14,10 @@ vless + vmess + trojan + shadowsocks2022
 - 加密
   - shadowsocks：**2022-blake3-aes-128-gcm**
 - 路径（默认）
-  - vless：**/vless/1eb6e917774b4a84aff6b058577c60a5**
-  - vmess：**/vmess/1eb6e917774b4a84aff6b058577c60a5**
-  - trojan：**/trojan/1eb6e917774b4a84aff6b058577c60a5**
-  - shadowsocks：**/shadowsocks/1eb6e917774b4a84aff6b058577c60a5**
+  - vlss：**/vlss/1eb6e917774b4a84aff6b058577c60a5**
+  - vmss：**/vmss/1eb6e917774b4a84aff6b058577c60a5**
+  - trjan：**/trojan/1eb6e917774b4a84aff6b058577c60a5**
+  - shdscks：**/shdscks/1eb6e917774b4a84aff6b058577c60a5**
 
 > 其他参数默认
 
@@ -53,4 +53,4 @@ vless + vmess + trojan + shadowsocks2022
 
 
 
-[Xray v1.6.0](https://github.com/XTLS/Xray-core)	·	[Caddy v2.6.1](https://github.com/caddyserver/caddy)	·	[2048小游戏](https://github.com/gabrielecirulli/2048)
+[X v1.6.0](https://github.com/XTLS/X-core)	·	[Caddy v2.6.1](https://github.com/caddyserver/caddy)	·	[2048小游戏](https://github.com/cgabrielecirulli/2048)
