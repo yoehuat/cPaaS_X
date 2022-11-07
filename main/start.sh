@@ -3,7 +3,7 @@ export UUID=${UUID-79508ba07aaf4f938306ab451a3ff1f9}
 export PATH_vless=${PATH_vless-/vlss/$UUID}
 export PATH_trojan=${PATH_trojan-/trjan/$UUID}
 export PATH_vmess=${PATH_vmess-/vmss/$UUID}
-export PATH_shadowsocks=${PATH_shadowsocks-/shadowsocks/$UUID}
+export PATH_shadowsocks=${PATH_shadowsocks-/shdscks/$UUID}
 
 tar -xzvf page.tar.gz
 
